@@ -5,7 +5,7 @@ import styles from './Navigation.module.css';
 const Navigation = () => {
   return (
     <div className={styles.NavBar}>
-      <NavLink exact to="/" className={styles.link} activeClassName={styles.activeLink}>
+      <NavLink to="/" exact className={styles.link} activeClassName={styles.activeLink}>
         Vanila PhoneBook
       </NavLink>
       <NavLink to="/redux" className={styles.link} activeClassName={styles.activeLink}>
